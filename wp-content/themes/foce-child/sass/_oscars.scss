@@ -1,0 +1,45 @@
+////////////////////////////
+//// Section des oscars
+////////////////////////////
+
+.h2Oscars {
+    font-size: 42px;
+    background-image: url(./assets/images/nuage_orange.png);
+    background-size: contain;
+    text-align: left;
+    line-height:52.5px;
+    
+}
+
+.h2Oscars {
+   padding: 100px 65px;
+}
+
+div.titreOscars {
+   width: 70%;
+}
+
+div.imgOscars {
+    margin-top: 100px;
+}
+
+.oscars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 150px;
+ 
+    &::before {
+      content: url('./assets/images/Sunflower.png');
+      position: absolute;
+      left: 4em;
+      top: 0em;
+    }
+    &::after {
+      content: url('./assets/images/orchid.png');
+      position: absolute;
+      right: -4em;
+      bottom: 7.8em;
+  
+    }
+}

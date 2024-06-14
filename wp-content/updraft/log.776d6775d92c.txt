@@ -1,0 +1,313 @@
+0000.001 (0) Opened log file at time: Fri, 14 Jun 2024 13:36:01 +0000 on http://localhost:8000
+0000.043 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.2.15 (cli-server, Windows NT LAPTOP-H5E8ULT7 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.36 (max packet size=67108864) WPLANG: fr_FR Server: PHP 8.2.15 Development Server safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 3.2M | 4M) multisite: N openssl: OpenSSL 3.0.12 24 Oct 2023 mcrypt: N LANG: fr_FR.UTF-8 ZipArchive::addFile: Y
+0000.118 (0) Free space on disk containing Updraft's temporary directory: 203208.3 MB
+0000.214 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.380 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.717 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1718037460, seconds_ago=334702)
+0001.121 (0) Set semaphore last lock (fd) time to 2024-06-14 13:36:02
+0001.193 (0) Semaphore lock (fd) complete
+0001.310 (0) Backup run: resumption=0, nonce=776d6775d92c, file_nonce=776d6775d92c begun at=1718372161 (1s ago), job type=backup
+0001.401 (0) Scheduling a resumption (1) after 300 seconds (1718372462) in case this run gets aborted
+0001.553 (0) Checking if we have a zip executable available
+0001.865 (0) Creation of backups of directories: beginning
+0002.118 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.020 (0) Total entities for the zip file: 245 directories, 1438 files (0 skipped as non-modified), 26.7 MB
+0004.146 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.343 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.546 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 201 (201) files added so far); re-opening (prior size: 0 KB)
+0004.913 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 300 files added (on-disk size: 1093.6 KB)
+0005.069 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 400 files added (on-disk size: 1093.6 KB)
+0005.285 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 500 files added (on-disk size: 1093.6 KB)
+0005.500 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 600 files added (on-disk size: 1093.6 KB)
+0005.642 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 700 files added (on-disk size: 1093.6 KB)
+0005.912 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 800 files added (on-disk size: 1093.6 KB)
+0006.143 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 900 files added (on-disk size: 1093.6 KB)
+0006.223 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 1000 files added (on-disk size: 1093.6 KB)
+0006.345 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 1100 files added (on-disk size: 1093.6 KB)
+0006.441 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 1200 files added (on-disk size: 1093.6 KB)
+0006.487 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.8 MB, 1438 files batched, 1001 (1202) added so far); re-opening (prior size: 1093.6 KB)
+0010.077 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 1300 files added (on-disk size: 8214.2 KB)
+0010.344 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.tmp: 1400 files added (on-disk size: 8214.2 KB)
+0010.831 (0) Creating zip file manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.list-temp.tmp)
+0010.902 (0) Successfully created zip file manifest (size: 126007)
+0011.517 (0) Created plugins zip (0) - 8567.9 KB in 9.1 s (936.8 KB/s) (sha1: 99d862491ad3cd3cc3639654270119161e07d76b, sha256: 695e3263a24fe6217c2b595525abd6a64a6f60e32a1f7a9a8358edd0920d14fd)
+0011.913 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0012.066 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-23e40069f30cb96105e919c4f79f6ed6)
+0018.061 (0) Google Drive: quota usage: used=10531.2 MB, total=15360 MB, available=4828.8 MB
+0018.109 (0) Google Drive: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip: Attempting to upload to Google Drive (into folder id: 1lLqkTEPH5Kly_lKORuOmXsZJgnjQzvbw)
+0020.135 (0) Googledrive chunked upload: 12 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 4.4 / 6)
+0021.946 (0) Googledrive chunked upload: 35.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 4.4 / 6)
+0024.649 (0) Googledrive chunked upload: 83.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 4.4 / 6)
+0028.086 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0028.314 (0) Google Drive: OK: Archive backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip uploaded in 10.12 seconds
+0028.353 (0) Recording as successfully uploaded: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip
+0028.433 (0) Deleting local file: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip: OK
+0028.608 (0) Beginning creation of dump of themes (split every: 400 MB)
+0029.026 (0) Total entities for the zip file: 71 directories, 411 files (0 skipped as non-modified), 19.4 MB
+0029.120 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0029.208 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0029.391 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0029.478 (0) Zip: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0030.432 (0) Creating zip file manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip.list-temp.tmp)
+0030.475 (0) Successfully created zip file manifest (size: 26658)
+0030.772 (0) Created themes zip (0) - 17484.4 KB in 2.1 s (8449.8 KB/s) (sha1: 78e95c9c81946a6b9fa9a498ffa80c282bf7bf56, sha256: 1ed3f4b243509c05b31298c236d33395079b774ee68974c69648c1bd6f271b83)
+0031.175 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0031.332 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-23e40069f30cb96105e919c4f79f6ed6)
+0032.186 (0) Google Drive: quota usage: used=10539.6 MB, total=15360 MB, available=4820.4 MB
+0032.220 (0) Google Drive: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip: Attempting to upload to Google Drive (into folder id: 1lLqkTEPH5Kly_lKORuOmXsZJgnjQzvbw)
+0033.940 (0) Googledrive chunked upload: 5.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 4.3 / 6)
+0035.669 (0) Googledrive chunked upload: 17.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 4.3 / 6)
+0038.295 (0) Googledrive chunked upload: 41 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 4.3 / 6)
+0042.722 (0) Googledrive chunked upload: 87.8 % uploaded (15728640)
+0045.494 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0045.632 (0) Google Drive: OK: Archive backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip uploaded in 13.37 seconds
+0045.672 (0) Recording as successfully uploaded: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip
+0045.769 (0) Deleting local file: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip: OK
+0045.907 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0045.959 (0) Looking for candidates to backup in: D:\neveu\Projets sites\koukaki/wp-content/uploads
+0045.999 (0) finding files: 2022: adding to list (1)
+0046.040 (0) finding files: 2024: adding to list (2)
+0046.076 (0) finding files: backup: skipping: excluded by options (glob)
+0046.116 (0) finding files: ShortpixelBackups: adding to list (3)
+0046.177 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0046.422 (0) Total entities for the zip file: 8 directories, 20 files (0 skipped as non-modified), 31.4 MB
+0046.669 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (31.4 MB, 20 files batched, 20 (20) added so far); re-opening (prior size: 0 KB)
+0047.206 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.4 s, rate: 17855.2 KB/s)
+0047.372 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.8006060123444, normalised_time=1.4337558534184, max_time=47.281409978867, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0047.501 (0) Creating zip file manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-uploads.zip.list-temp.tmp)
+0047.557 (0) Successfully created zip file manifest (size: 1040)
+0048.014 (0) Created uploads zip (0) - 32154 KB in 1.7 s (19095 KB/s) (sha1: 263ee8fef053f3dbd698070f61e073fdbbfd02f1, sha256: cbb1e352580b299ae48c53f2ec379cdacad367189dc2e0de8f4003d853098229)
+0048.228 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0048.321 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-23e40069f30cb96105e919c4f79f6ed6)
+0049.431 (0) Google Drive: quota usage: used=10556.7 MB, total=15360 MB, available=4803.3 MB
+0049.460 (0) Google Drive: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-uploads.zip: Attempting to upload to Google Drive (into folder id: 1lLqkTEPH5Kly_lKORuOmXsZJgnjQzvbw)
+0051.257 (0) Googledrive chunked upload: 3.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 4.2 / 6)
+0053.327 (0) Googledrive chunked upload: 9.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 4.2 / 6)
+0055.820 (0) Googledrive chunked upload: 22.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 4.2 / 6)
+0060.997 (0) Googledrive chunked upload: 47.8 % uploaded (15728640)
+0065.358 (0) Googledrive chunked upload: 73.2 % uploaded (24117248)
+0069.823 (0) Googledrive chunked upload: 98.7 % uploaded (32505856)
+0071.802 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0071.954 (0) Google Drive: OK: Archive backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-uploads.zip uploaded in 22.44 seconds
+0071.990 (0) Recording as successfully uploaded: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-uploads.zip
+0072.071 (0) Deleting local file: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-uploads.zip: OK
+0072.225 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0072.373 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0072.521 (0) Creating zip file manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-mu-plugins.zip.list-temp.tmp)
+0072.597 (0) Successfully created zip file manifest (size: 73)
+0073.078 (0) Created mu-plugins zip (0) - 0.9 KB in 0.6 s (1.6 KB/s) (sha1: 983d794c18213e6183398d23e2e4a494e007bbf2, sha256: 9f2e6b0a4a8be521a2140052a4953d86ced77913c921621c0950ab365bd371db)
+0073.570 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0073.706 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-23e40069f30cb96105e919c4f79f6ed6)
+0074.687 (0) Google Drive: quota usage: used=10588.1 MB, total=15360 MB, available=4771.9 MB
+0074.722 (0) Google Drive: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1lLqkTEPH5Kly_lKORuOmXsZJgnjQzvbw)
+0077.285 (0) Googledrive chunked upload: 100 % uploaded
+0077.422 (0) Google Drive: OK: Archive backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-mu-plugins.zip uploaded in 2.66 seconds
+0077.486 (0) Recording as successfully uploaded: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-mu-plugins.zip
+0077.661 (0) Deleting local file: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-mu-plugins.zip: OK
+0077.798 (0) Beginning backup of other directories found in the content directory (index: 0)
+0077.854 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0077.911 (0) Looking for candidates to backup in: D:\neveu\Projets sites\koukaki/wp-content
+0077.998 (0) finding files: .DS_Store: adding to list (1)
+0078.042 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0078.170 (0) finding files: index.php: adding to list (2)
+0078.297 (0) finding files: languages: adding to list (3)
+0078.518 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0078.625 (0) finding files: plugins: skipping: this is the plugins directory
+0078.826 (0) finding files: themes: skipping: this is the themes directory
+0078.864 (0) finding files: updraft: skipping: this is the updraft directory
+0078.905 (0) finding files: upgrade: skipping: excluded by options
+0078.944 (0) finding files: upgrade-temp-backup: adding to list (4)
+0078.999 (0) finding files: uploads: skipping: this is the uploads directory
+0079.187 (0) Total entities for the zip file: 4 directories, 89 files (0 skipped as non-modified), 5.1 MB
+0079.704 (0) Creating zip file manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-others.zip.list-temp.tmp)
+0079.777 (0) Successfully created zip file manifest (size: 5217)
+0080.056 (0) Created others zip (0) - 1468.1 KB in 1 s (1517.2 KB/s) (sha1: 57487b3731f4f59d2e6ee9e07283c39ed84e1ee9, sha256: 8cb84d8fb74f07aef6a5cd5bf2475e67b649776e1158f10e11165a701a903988)
+0080.405 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0080.445 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-23e40069f30cb96105e919c4f79f6ed6)
+0081.186 (0) Google Drive: quota usage: used=10588.1 MB, total=15360 MB, available=4771.9 MB
+0081.225 (0) Google Drive: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-others.zip: Attempting to upload to Google Drive (into folder id: 1lLqkTEPH5Kly_lKORuOmXsZJgnjQzvbw)
+0082.995 (0) Googledrive chunked upload: 69.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 4.2 / 8)
+0084.955 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0085.196 (0) Google Drive: OK: Archive backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-others.zip uploaded in 3.9 seconds
+0085.271 (0) Recording as successfully uploaded: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-others.zip
+0085.456 (0) Deleting local file: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-others.zip: OK
+0085.693 (0) Saving backup status to database (elements: 10)
+0085.808 (0) Beginning creation of database dump (WordPress DB)
+0085.845 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0085.979 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0086.255 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1603 bytes total)
+0086.294 (0) Working binary mysqldump found: "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe"
+0086.575 (0) Table wp_options: Total expected rows (via COUNT): 232
+0086.614 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0086.823 (0) Table wp_options: Rows added in this batch (next record: 1524): 228 (uncompressed bytes in this segment=55440) in 0.31 seconds
+0087.038 (0) Table wp_options: finishing file(s) (2, 13.4 KB)
+0087.191 (0) Table wp_users: Total expected rows (via COUNT): 2
+0087.280 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.412 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1701) in 0.22 seconds
+0087.592 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0087.779 (0) Table wp_usermeta: Total expected rows (via COUNT): 35
+0087.961 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0088.059 (0) Table wp_usermeta: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=2393) in 0.37 seconds
+0088.307 (0) Table wp_usermeta: finishing file(s) (2, 1.1 KB)
+0088.522 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0088.615 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.14 seconds
+0088.881 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0089.008 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0089.047 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0089.345 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2297) in 0.35 seconds
+0089.507 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0089.718 (0) Table wp_links: Total expected rows (via COUNT): 0
+0089.831 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.13 seconds
+0090.044 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0090.289 (0) Table wp_postmeta: Total expected rows (via COUNT): 51
+0090.377 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0090.565 (0) Table wp_postmeta: Rows added in this batch (next record: 105): 51 (uncompressed bytes in this segment=9117) in 0.32 seconds
+0090.949 (0) Table wp_postmeta: finishing file(s) (2, 1.8 KB)
+0091.319 (0) Table wp_posts: Total expected rows (via COUNT): 20
+0091.412 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.591 (0) Table wp_posts: Rows added in this batch (next record: 48): 20 (uncompressed bytes in this segment=13660) in 0.35 seconds
+0091.887 (0) Table wp_posts: finishing file(s) (2, 3.3 KB)
+0092.020 (0) Table wp_term_relationships: Total expected rows (approximate): 2
+0092.149 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 2 (uncompressed bytes in this segment=702) in 0.13 seconds
+0092.352 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0092.498 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0092.536 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0092.618 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=985) in 0.16 seconds
+0092.968 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0093.114 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0093.224 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.15 seconds
+0093.467 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0093.717 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0093.755 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0093.905 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=797) in 0.20 seconds
+0094.146 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0094.467 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 1
+0094.506 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0094.565 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 48): 1 (uncompressed bytes in this segment=2055) in 0.18 seconds
+0094.729 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.7 KB)
+0094.901 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0095.011 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=620) in 0.11 seconds
+0095.276 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0095.505 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 1
+0095.548 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0095.690 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=685) in 0.19 seconds
+0095.887 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0096.058 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 3
+0096.114 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0096.177 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1073) in 0.16 seconds
+0096.521 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0096.804 (0) Table wp_shortpixel_folders: Total expected rows (via COUNT): 0
+0097.018 (0) Table wp_shortpixel_folders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=916) in 0.25 seconds
+0097.417 (0) Table wp_shortpixel_folders: finishing file(s) (2, 0.4 KB)
+0097.929 (0) Table wp_shortpixel_meta: Total expected rows (via COUNT): 0
+0098.186 (0) Table wp_shortpixel_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1328) in 0.40 seconds
+0098.492 (0) Table wp_shortpixel_meta: finishing file(s) (2, 0.5 KB)
+0098.767 (0) Table wp_shortpixel_postmeta: Total expected rows (via COUNT): 0
+0098.829 (0) Table wp_shortpixel_postmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1092) in 0.16 seconds
+0099.026 (0) Table wp_shortpixel_postmeta: finishing file(s) (2, 0.5 KB)
+0099.065 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\neveu\Projets sites\koukaki/wp-content/updraft/backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db.gz (line 1925, D:\neveu\Projets sites\koukaki\wp-content\plugins\updraftplus\backup.php)
+0099.104 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_options.table.tmpr1525.gz (1/19/fopen): adding to final database dump
+0099.142 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_options.table.gz (2/19/fopen): adding to final database dump
+0099.228 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_users.table.tmpr3.gz (3/19/fopen): adding to final database dump
+0099.304 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_users.table.gz (4/19/fopen): adding to final database dump
+0099.360 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_usermeta.table.tmpr36.gz (5/19/fopen): adding to final database dump
+0099.395 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_usermeta.table.gz (6/19/fopen): adding to final database dump
+0099.431 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_commentmeta.table.tmpr0.gz (7/19/fopen): adding to final database dump
+0099.471 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_commentmeta.table.gz (8/19/fopen): adding to final database dump
+0099.511 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_comments.table.tmpr2.gz (9/19/fopen): adding to final database dump
+0099.568 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_comments.table.gz (10/19/fopen): adding to final database dump
+0099.606 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_links.table.tmpr0.gz (11/19/fopen): adding to final database dump
+0099.667 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_links.table.gz (12/19/fopen): adding to final database dump
+0099.700 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_postmeta.table.tmpr106.gz (13/19/fopen): adding to final database dump
+0099.740 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_postmeta.table.gz (14/19/fopen): adding to final database dump
+0099.812 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_posts.table.tmpr49.gz (15/19/fopen): adding to final database dump
+0099.851 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_posts.table.gz (16/19/fopen): adding to final database dump
+0100.008 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_term_relationships.table.tmpr100001.gz (17/19/fopen): adding to final database dump
+0100.047 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_term_relationships.table.gz (18/19/fopen): adding to final database dump
+0100.105 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_term_taxonomy.table.tmpr3.gz (19/19/fopen): adding to final database dump
+0100.217 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_term_taxonomy.table.gz (20/19/fopen): adding to final database dump
+0100.330 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_termmeta.table.tmpr0.gz (21/19/fopen): adding to final database dump
+0100.370 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_termmeta.table.gz (22/19/fopen): adding to final database dump
+0100.422 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_terms.table.tmpr3.gz (23/19/fopen): adding to final database dump
+0100.460 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_terms.table.gz (24/19/fopen): adding to final database dump
+0100.521 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_actionscheduler_actions.table.tmpr49.gz (25/19/fopen): adding to final database dump
+0100.558 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_actionscheduler_actions.table.gz (26/19/fopen): adding to final database dump
+0100.595 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/19/fopen): adding to final database dump
+0100.635 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_actionscheduler_claims.table.gz (28/19/fopen): adding to final database dump
+0100.673 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_actionscheduler_groups.table.tmpr2.gz (29/19/fopen): adding to final database dump
+0100.713 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_actionscheduler_groups.table.gz (30/19/fopen): adding to final database dump
+0100.765 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_actionscheduler_logs.table.tmpr4.gz (31/19/fopen): adding to final database dump
+0100.806 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_actionscheduler_logs.table.gz (32/19/fopen): adding to final database dump
+0100.843 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_shortpixel_folders.table.tmpr0.gz (33/19/fopen): adding to final database dump
+0100.882 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_shortpixel_folders.table.gz (34/19/fopen): adding to final database dump
+0100.924 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_shortpixel_meta.table.tmpr0.gz (35/19/fopen): adding to final database dump
+0100.964 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_shortpixel_meta.table.gz (36/19/fopen): adding to final database dump
+0101.002 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_shortpixel_postmeta.table.tmpr0.gz (37/19/fopen): adding to final database dump
+0101.153 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db-table-wp_shortpixel_postmeta.table.gz (38/19/fopen): adding to final database dump
+0101.214 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db.gz: finished writing out complete database file (27.2 KB)
+0101.463 (0) Total database tables backed up: 19 (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db.gz, size: 27967, sha1: a65c804d6b4ff328e2955c7f13e551ed8f38b603, sha256: 02948e4dda796bfc5e07c5202330e977a1f3ae35c428d1fc4fcc2717af92529a)
+0101.680 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip: plugins: This file has already been successfully uploaded
+0101.738 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip: themes: This file has already been successfully uploaded
+0101.794 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-uploads.zip: uploads: This file has already been successfully uploaded
+0101.824 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0101.863 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-others.zip: others: This file has already been successfully uploaded
+0101.902 (0) backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0101.941 (0) Saving backup history. Total backup size: 58.3 MB
+0102.070 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0102.246 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0102.364 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-23e40069f30cb96105e919c4f79f6ed6)
+0103.100 (0) Google Drive: quota usage: used=10589.5 MB, total=15360 MB, available=4770.5 MB
+0103.135 (0) Google Drive: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db.gz: Attempting to upload to Google Drive (into folder id: 1lLqkTEPH5Kly_lKORuOmXsZJgnjQzvbw)
+0106.068 (0) Googledrive chunked upload: 100 % uploaded
+0106.559 (0) Google Drive: OK: Archive backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db.gz uploaded in 3.36 seconds
+0106.678 (0) Recording as successfully uploaded: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db.gz
+0106.928 (0) Deleting local file: backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-db.gz: OK
+0107.239 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=30
+0107.330 (0) Number of backup sets in history: 7; groups (db): 1
+0107.472 (0) Examining (for databases) backup set with group_id=0, nonce=776d6775d92c, datestamp=1718372161 (Jun 14 2024 13:36:01)
+0107.667 (0) This backup set is the backup set just made, so will not be deleted.
+0107.667 (0) Examining (for databases) backup set with group_id=0, nonce=8110715b4a31, datestamp=1718037460 (Jun 10 2024 16:37:40)
+0107.667 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.782 (0) Examining (for databases) backup set with group_id=0, nonce=90f690c6fe46, datestamp=1717752980 (Jun 07 2024 09:36:20)
+0107.782 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.782 (0) Examining (for databases) backup set with group_id=0, nonce=0b9cb46acfb1, datestamp=1717662078 (Jun 06 2024 08:21:18)
+0107.782 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.782 (0) Examining (for databases) backup set with group_id=0, nonce=690e59ed519d, datestamp=1717608726 (Jun 05 2024 17:32:06)
+0107.783 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.783 (0) Examining (for databases) backup set with group_id=0, nonce=eccee6d48281, datestamp=1717400768 (Jun 03 2024 07:46:08)
+0107.783 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.783 (0) Examining (for databases) backup set with group_id=0, nonce=74d6b09baa4e, datestamp=1716285151 (May 21 2024 09:52:31)
+0107.783 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0107.783 (0) Number of backup sets in history: 7; groups (files): 1
+0107.911 (0) Examining (for files) backup set with nonce=776d6775d92c, datestamp=1718372161 (Jun 14 2024 13:36:01)
+0107.911 (0) This backup set is the backup set just made, so will not be deleted.
+0108.058 (0) This backup set is the backup set just made, so will not be deleted.
+0108.059 (0) This backup set is the backup set just made, so will not be deleted.
+0108.059 (0) This backup set is the backup set just made, so will not be deleted.
+0108.059 (0) This backup set is the backup set just made, so will not be deleted.
+0108.059 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.237 (0) Examining (for files) backup set with nonce=8110715b4a31, datestamp=1718037460 (Jun 10 2024 16:37:40)
+0108.237 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.237 (0) Examining (for files) backup set with nonce=90f690c6fe46, datestamp=1717752980 (Jun 07 2024 09:36:20)
+0108.237 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.237 (0) Examining (for files) backup set with nonce=0b9cb46acfb1, datestamp=1717662078 (Jun 06 2024 08:21:18)
+0108.237 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.237 (0) Examining (for files) backup set with nonce=690e59ed519d, datestamp=1717608726 (Jun 05 2024 17:32:06)
+0108.237 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.237 (0) Examining (for files) backup set with nonce=eccee6d48281, datestamp=1717400768 (Jun 03 2024 07:46:08)
+0108.237 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.237 (0) Examining (for files) backup set with nonce=74d6b09baa4e, datestamp=1716285151 (May 21 2024 09:52:31)
+0108.237 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.237 (0) Retain: saving new backup history (sets now: 7) and finishing retain operation
+0108.351 (0) Resume backup (776d6775d92c, 0): finish run
+0108.517 (0) Decremented the semaphore (fd) by 1
+0108.591 (0) Semaphore (fd) unlocked
+0108.628 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0108.890 (0) The backup succeeded and is now complete
+0108.966 (0) Deleting zip manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-plugins.zip.list.tmp)
+0109.008 (0) Deleting zip manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-themes.zip.list.tmp)
+0109.065 (0) Deleting zip manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-uploads.zip.list.tmp)
+0109.162 (0) Deleting zip manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-mu-plugins.zip.list.tmp)
+0109.254 (0) Deleting zip manifest (backup_2024-06-14-1336_Fleurs_d039oranger_amp_chat_776d6775d92c-others.zip.list.tmp)
+0109.383 (0) No email will/can be sent - the user has not configured an email address.
+0109.438 (0) La sauvegarde a réussi et est maintenant terminée
