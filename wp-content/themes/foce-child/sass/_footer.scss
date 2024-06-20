@@ -1,11 +1,23 @@
 .site-footer {
-  /// à supprimer ?
   position: relative;
   display: flex;
   padding-top: 18em;
   padding-bottom: 1em;
   overflow: hidden;
 
+  &::before {
+    content: url('./assets/images/orchid.png');
+    position: absolute;
+    left: 4em;
+    top: 0em;
+  }
+  &::after {
+    content: url('./assets/images/orchid.png');
+    position: absolute;
+    right: -4em;
+    bottom: 7.8em;
+
+  }
   ul{
     padding: 0;
     margin: 0;
