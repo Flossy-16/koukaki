@@ -30,16 +30,17 @@ div.imgOscars {
     margin: 150px;
  
     &::before {
-      content: url('./assets/images/Sunflower.png');
+      content: url('wp-content/themes/foce-child/assets/images/Sunflower.png');
       position: absolute;
       left: 4em;
       top: 0em;
     }
     &::after {
-      content: url('./assets/images/orchid.png');
+      content: url('wp-content/themes/foce-child/assets/images/orchid.png');
       position: absolute;
       right: -4em;
       bottom: 7.8em;
   
     }
 }
+
